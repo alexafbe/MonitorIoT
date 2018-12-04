@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF236EB21A3FCE200DEFF3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF236EA21A3FCE200DEFF3A /* AppDelegate.swift */; };
+		FAF236ED21A3FCE200DEFF3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF236EC21A3FCE200DEFF3A /* ViewController.swift */; };
+		FAF236F021A3FCE200DEFF3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF236EE21A3FCE200DEFF3A /* Main.storyboard */; };
+		FAF236F221A3FCE500DEFF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF236F121A3FCE500DEFF3A /* Assets.xcassets */; };
+		FAF236F521A3FCE500DEFF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF236F321A3FCE500DEFF3A /* LaunchScreen.storyboard */; };
+		FAF2370021A3FCE600DEFF3A /* MonitemperatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF236FF21A3FCE600DEFF3A /* MonitemperatureTests.swift */; };
+		FAF2370B21A3FCE600DEFF3A /* MonitemperatureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2370A21A3FCE600DEFF3A /* MonitemperatureUITests.swift */; };
+		FAFF1C2421ABF27F005BFA3F /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF1C2321ABF27F005BFA3F /* ListTableViewController.swift */; };
+		FAFF1C2621ABF2F3005BFA3F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF1C2521ABF2F3005BFA3F /* DetailsViewController.swift */; };
+		FAFF1C2821ABF40D005BFA3F /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF1C2721ABF40D005BFA3F /* FormViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF236FC21A3FCE600DEFF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF236DF21A3FCE200DEFF3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF236E621A3FCE200DEFF3A;
+			remoteInfo = Monitemperature;
+		};
+		FAF2370721A3FCE600DEFF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF236DF21A3FCE200DEFF3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF236E621A3FCE200DEFF3A;
+			remoteInfo = Monitemperature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF236E721A3FCE200DEFF3A /* Monitemperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monitemperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF236EA21A3FCE200DEFF3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF236EC21A3FCE200DEFF3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF236EF21A3FCE200DEFF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF236F121A3FCE500DEFF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF236F421A3FCE500DEFF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF236F621A3FCE500DEFF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF236FB21A3FCE600DEFF3A /* MonitemperatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonitemperatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF236FF21A3FCE600DEFF3A /* MonitemperatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitemperatureTests.swift; sourceTree = "<group>"; };
+		FAF2370121A3FCE600DEFF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF2370621A3FCE600DEFF3A /* MonitemperatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonitemperatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF2370A21A3FCE600DEFF3A /* MonitemperatureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitemperatureUITests.swift; sourceTree = "<group>"; };
+		FAF2370C21A3FCE600DEFF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFF1C2321ABF27F005BFA3F /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		FAFF1C2521ABF2F3005BFA3F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FAFF1C2721ABF40D005BFA3F /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF236E421A3FCE200DEFF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF236F821A3FCE600DEFF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2370321A3FCE600DEFF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF236DE21A3FCE200DEFF3A = {
+			isa = PBXGroup;
+			children = (
+				FAF236E921A3FCE200DEFF3A /* Monitemperature */,
+				FAF236FE21A3FCE600DEFF3A /* MonitemperatureTests */,
+				FAF2370921A3FCE600DEFF3A /* MonitemperatureUITests */,
+				FAF236E821A3FCE200DEFF3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF236E821A3FCE200DEFF3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF236E721A3FCE200DEFF3A /* Monitemperature.app */,
+				FAF236FB21A3FCE600DEFF3A /* MonitemperatureTests.xctest */,
+				FAF2370621A3FCE600DEFF3A /* MonitemperatureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF236E921A3FCE200DEFF3A /* Monitemperature */ = {
+			isa = PBXGroup;
+			children = (
+				FAF236EA21A3FCE200DEFF3A /* AppDelegate.swift */,
+				FAF236EC21A3FCE200DEFF3A /* ViewController.swift */,
+				FAFF1C2321ABF27F005BFA3F /* ListTableViewController.swift */,
+				FAF236EE21A3FCE200DEFF3A /* Main.storyboard */,
+				FAFF1C2721ABF40D005BFA3F /* FormViewController.swift */,
+				FAFF1C2521ABF2F3005BFA3F /* DetailsViewController.swift */,
+				FAF236F121A3FCE500DEFF3A /* Assets.xcassets */,
+				FAF236F321A3FCE500DEFF3A /* LaunchScreen.storyboard */,
+				FAF236F621A3FCE500DEFF3A /* Info.plist */,
+			);
+			path = Monitemperature;
+			sourceTree = "<group>";
+		};
+		FAF236FE21A3FCE600DEFF3A /* MonitemperatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF236FF21A3FCE600DEFF3A /* MonitemperatureTests.swift */,
+				FAF2370121A3FCE600DEFF3A /* Info.plist */,
+			);
+			path = MonitemperatureTests;
+			sourceTree = "<group>";
+		};
+		FAF2370921A3FCE600DEFF3A /* MonitemperatureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2370A21A3FCE600DEFF3A /* MonitemperatureUITests.swift */,
+				FAF2370C21A3FCE600DEFF3A /* Info.plist */,
+			);
+			path = MonitemperatureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF236E621A3FCE200DEFF3A /* Monitemperature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2370F21A3FCE600DEFF3A /* Build configuration list for PBXNativeTarget "Monitemperature" */;
+			buildPhases = (
+				FAF236E321A3FCE200DEFF3A /* Sources */,
+				FAF236E421A3FCE200DEFF3A /* Frameworks */,
+				FAF236E521A3FCE200DEFF3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monitemperature;
+			productName = Monitemperature;
+			productReference = FAF236E721A3FCE200DEFF3A /* Monitemperature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF236FA21A3FCE600DEFF3A /* MonitemperatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2371221A3FCE600DEFF3A /* Build configuration list for PBXNativeTarget "MonitemperatureTests" */;
+			buildPhases = (
+				FAF236F721A3FCE600DEFF3A /* Sources */,
+				FAF236F821A3FCE600DEFF3A /* Frameworks */,
+				FAF236F921A3FCE600DEFF3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF236FD21A3FCE600DEFF3A /* PBXTargetDependency */,
+			);
+			name = MonitemperatureTests;
+			productName = MonitemperatureTests;
+			productReference = FAF236FB21A3FCE600DEFF3A /* MonitemperatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF2370521A3FCE600DEFF3A /* MonitemperatureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2371521A3FCE600DEFF3A /* Build configuration list for PBXNativeTarget "MonitemperatureUITests" */;
+			buildPhases = (
+				FAF2370221A3FCE600DEFF3A /* Sources */,
+				FAF2370321A3FCE600DEFF3A /* Frameworks */,
+				FAF2370421A3FCE600DEFF3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF2370821A3FCE600DEFF3A /* PBXTargetDependency */,
+			);
+			name = MonitemperatureUITests;
+			productName = MonitemperatureUITests;
+			productReference = FAF2370621A3FCE600DEFF3A /* MonitemperatureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF236DF21A3FCE200DEFF3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Alexandra Fabre";
+				TargetAttributes = {
+					FAF236E621A3FCE200DEFF3A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					FAF236FA21A3FCE600DEFF3A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FAF236E621A3FCE200DEFF3A;
+					};
+					FAF2370521A3FCE600DEFF3A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FAF236E621A3FCE200DEFF3A;
+					};
+				};
+			};
+			buildConfigurationList = FAF236E221A3FCE200DEFF3A /* Build configuration list for PBXProject "Monitemperature" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF236DE21A3FCE200DEFF3A;
+			productRefGroup = FAF236E821A3FCE200DEFF3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF236E621A3FCE200DEFF3A /* Monitemperature */,
+				FAF236FA21A3FCE600DEFF3A /* MonitemperatureTests */,
+				FAF2370521A3FCE600DEFF3A /* MonitemperatureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF236E521A3FCE200DEFF3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF236F521A3FCE500DEFF3A /* LaunchScreen.storyboard in Resources */,
+				FAF236F221A3FCE500DEFF3A /* Assets.xcassets in Resources */,
+				FAF236F021A3FCE200DEFF3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF236F921A3FCE600DEFF3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2370421A3FCE600DEFF3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF236E321A3FCE200DEFF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFF1C2421ABF27F005BFA3F /* ListTableViewController.swift in Sources */,
+				FAF236ED21A3FCE200DEFF3A /* ViewController.swift in Sources */,
+				FAF236EB21A3FCE200DEFF3A /* AppDelegate.swift in Sources */,
+				FAFF1C2821ABF40D005BFA3F /* FormViewController.swift in Sources */,
+				FAFF1C2621ABF2F3005BFA3F /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF236F721A3FCE600DEFF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2370021A3FCE600DEFF3A /* MonitemperatureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2370221A3FCE600DEFF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2370B21A3FCE600DEFF3A /* MonitemperatureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF236FD21A3FCE600DEFF3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF236E621A3FCE200DEFF3A /* Monitemperature */;
+			targetProxy = FAF236FC21A3FCE600DEFF3A /* PBXContainerItemProxy */;
+		};
+		FAF2370821A3FCE600DEFF3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF236E621A3FCE200DEFF3A /* Monitemperature */;
+			targetProxy = FAF2370721A3FCE600DEFF3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF236EE21A3FCE200DEFF3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF236EF21A3FCE200DEFF3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF236F321A3FCE500DEFF3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF236F421A3FCE500DEFF3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF2370D21A3FCE600DEFF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF2370E21A3FCE600DEFF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF2371021A3FCE600DEFF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Monitemperature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Licorne.Monitemperature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF2371121A3FCE600DEFF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Monitemperature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Licorne.Monitemperature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAF2371321A3FCE600DEFF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonitemperatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Licorne.MonitemperatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monitemperature.app/Monitemperature";
+			};
+			name = Debug;
+		};
+		FAF2371421A3FCE600DEFF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonitemperatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Licorne.MonitemperatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monitemperature.app/Monitemperature";
+			};
+			name = Release;
+		};
+		FAF2371621A3FCE600DEFF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonitemperatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Licorne.MonitemperatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Monitemperature;
+			};
+			name = Debug;
+		};
+		FAF2371721A3FCE600DEFF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonitemperatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Licorne.MonitemperatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Monitemperature;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF236E221A3FCE200DEFF3A /* Build configuration list for PBXProject "Monitemperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2370D21A3FCE600DEFF3A /* Debug */,
+				FAF2370E21A3FCE600DEFF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF2370F21A3FCE600DEFF3A /* Build configuration list for PBXNativeTarget "Monitemperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2371021A3FCE600DEFF3A /* Debug */,
+				FAF2371121A3FCE600DEFF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF2371221A3FCE600DEFF3A /* Build configuration list for PBXNativeTarget "MonitemperatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2371321A3FCE600DEFF3A /* Debug */,
+				FAF2371421A3FCE600DEFF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF2371521A3FCE600DEFF3A /* Build configuration list for PBXNativeTarget "MonitemperatureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2371621A3FCE600DEFF3A /* Debug */,
+				FAF2371721A3FCE600DEFF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF236DF21A3FCE200DEFF3A /* Project object */;
+}
